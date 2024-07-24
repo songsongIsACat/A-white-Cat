@@ -33,14 +33,6 @@ class Solution:
         return resultList
 
 
-# 求最长公共前缀  ["flower","flow","flight"]
-# class Solution2:
-#     def longestCommonPrefix(self, strs):
-#         commonResult = ""
-#         for i in range(len(strs[0])):
-#             for x in strs:
-#                 for y in x:
-
 # 找出字符串中第一个匹配项的下标
 """重点：使用find()函数"""
 
@@ -201,6 +193,14 @@ class Solution19:
             else:
                 n = i_sum
                 i_sum_list.append(i_sum)
+
+## 求最长公共前缀  ["flower","flow","flight"]
+# class Solution2:
+#     def longestCommonPrefix(self, strs):
+#         commonResult = ""
+#         for i in range(len(strs[0])):
+#             for x in strs:
+#                 for y in x:
 
 
 
